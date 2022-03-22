@@ -47,6 +47,9 @@ body {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
 }
+.page-header img {
+  padding: 0px 15px 0px 0px;
+}
 
 .hero-image {
   margin-bottom: 620px;
@@ -168,9 +171,14 @@ body {
   vertical-align: baseline;
   text-decoration: none;
   text-transform: uppercase;
-  border-radius: 4px;
+  border-radius: 10px;
   background-color: #288be6;
   color: #ffffff;
+}
+
+.button:hover {
+  background-color: #3e1ac2;
+  color: #f5e50b; 
 }
 
 .page-footer {
@@ -195,4 +203,8 @@ body {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+.page-footer img {
+  padding: 0px 15px 0px 0px;
 }
